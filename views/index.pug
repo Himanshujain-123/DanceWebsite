@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title Himanshu's Dance Academy
+    style
+      include  ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+                img(src="/static/logo.jpg")
+                |HDA 
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introsection 
+        div Welcome To Harry's Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+
+    section#missionsection 
+        h2 our mission
+        div.card
+          h3 Dance Perfection
+            div.card-box 
+              div.card-img
+                    img(src="https://tse3.mm.bing.net/th?id=OIP.VuTWAKXQ_lc6GiftYEdKMAAAAA&pid=Api&P=0&w=131&h=163", alt="")
+              div.card-content 
+                    p This is The Best Dance Academy of the universe
+
+        div.card
+          h3 Dance The Way You Like
+            div.card-box 
+              div.card-img 
+                     img(src="https://tse2.mm.bing.net/th?id=OIP.6GI7bCpg282stMFIRNqkggHaLH&pid=Api&P=0&w=122&h=183", alt="")
+              div.card-content 
+                     p This is The Best Dance Academy of the universe
+
+        div.card
+          h3 Expert Teaching
+            div.card-box 
+              div.card-img
+                    img(src="https://tse3.mm.bing.net/th?id=OIP.uyCjcQWAzoLaWUyMtkQ-FgHaIO&pid=Api&P=0&w=166&h=185", alt="")
+              div.card-content 
+                    p This is The Best Dance Academy of the universe
+
+    section#Sponsorsection 
+        h2 our Sponsors
+          div#sponsors 
+              img(src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Twitter-icon.png", alt="" ,Class="spimage")
+              img(src="https://icons.iconarchive.com/icons/yootheme/social-bookmark/512/social-facebook-button-blue-icon.png", alt="" ,Class="spimage")
+              img(src="https://icons.iconarchive.com/icons/graphics-vibe/simple-rounded-social/256/google-icon.png", alt="",Class="spimage")
+              img(src="http://icons.iconarchive.com/icons/martz90/circle/512/skype-icon.png", alt="",Class="spimage")
+
+    footer#footer
+        
+              |Copyright@ 2022HimanshuDanceAcademy.com |All right Reserved
+        
+    script
+      include ../static/index.js

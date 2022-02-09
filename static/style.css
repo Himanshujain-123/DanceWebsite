@@ -1,0 +1,171 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+*
+{
+     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+#navbar li
+{
+    list-style: none;
+
+}
+#navbar
+{
+    background-color:red;
+    padding: 4px 30px;
+    font-family: 'Quintessential', cursive;
+    /* position: fixed;
+    width: 100%; */
+    
+    
+    
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#navbar li a:hover{
+    color: black;
+    font-weight: bold;
+}
+#navbar ul{
+    /* justify-content: center; */
+    align-items: center;
+  /* position: fixed; */
+    display: flex;
+    
+}
+#logo
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 40px;
+    font-size: 28px;
+   
+   
+   
+}
+#logo img{
+    height: 42px;
+    filter: invert(1.2);
+   
+}
+#introsection
+{
+    height: 425px;
+    background-color: rebeccapurple;
+    background: url('/static/bg.jpg') center/cover no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quintessential', cursive;
+    font-size: 65px;
+    font-weight: bold;
+    flex-direction: column;
+    padding-bottom: 8px;
+   
+}
+#introsection div.small
+{
+    font-size: 35px;
+    margin-top: 0px;
+   
+}
+#missionsection
+{
+    height: 314px;
+    margin: auto;
+    width: 66%;
+    /* background-color:orange; */
+    /* background: orange; */
+}
+#missionsection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size:35px ;
+
+}
+.card
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 30%;
+    margin: 26px 9px;
+    height: 200px;
+    display: inline-block;
+  
+    
+    
+}
+.card h3{
+    text-align: center;
+    margin: 45px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px
+
+}
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card-img img
+{
+       
+      
+        height: 94px;
+        margin-top: 32px
+
+}
+.card-content
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+p{
+    text-align: center;
+    margin-top: 55px
+}
+#Sponsorsection
+{
+    height: 300px;
+    background-color: yellow;
+}
+#Sponsorsection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size:35px ;
+}
+
+.spimage
+{
+    height: 150px;
+    width: 150px;
+    margin: 23px;
+
+}
+
+
+#footer
+{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: wheat;
+    font-weight: bold;
+}
